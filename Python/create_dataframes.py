@@ -1,7 +1,5 @@
 import os
 import csv
-from rpy2.robjects import pandas2ri
-pandas2ri.activate()
     
 def read_data_fire_period():
     a=[] #this will be a list with the header elements

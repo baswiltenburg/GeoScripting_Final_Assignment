@@ -96,7 +96,7 @@ ui <- shinyUI(navbarPage("Wildfires California", id="nav",
                                                 width = 330, height = "auto",
                                                 sliderInput("days", "Period of the 'Sherpa' wildfire", min = 1, max = 82, value = 1, step = 1, pre = 'Day ', animate = TRUE),
                                                 textOutput("cellvalue"),
-                                                plotOutput("plot", width = 225, height = 200))
+                                                plotOutput("plot", width = 325, height = 200))
                          )))
 
 #Build a server for the interactive map

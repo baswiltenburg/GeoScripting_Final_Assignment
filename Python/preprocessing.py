@@ -4,8 +4,6 @@
 
 def preprocessing():
     import os 
-    from rpy2.robjects import pandas2ri
-    pandas2ri.activate()
   
     a=[] #this will be a list with the header elements
     b=[] #this will be a list of lists with all the data belonging to the header elements
